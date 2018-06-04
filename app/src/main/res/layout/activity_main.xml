@@ -55,17 +55,22 @@
 
         <Button
             android:id="@+id/btnSave"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save Contact"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="211dp" />
+
         <Button
             android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_below="@+id/btnSave"
-            android:text="Emergency Call"/>
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Emergency Call" />
     </RelativeLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
